@@ -131,7 +131,7 @@ if __name__ == "__main__":
             
             
             if video_path:
-                st.video(video_path) #播放加载的原始视频
+                #st.video(video_path) #播放加载的原始视频
                 #################### 转格式 #####################
                 tfile = tempfile.NamedTemporaryFile(delete=False)
                 tfile.write(video_path.read())
